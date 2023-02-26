@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Challenge Encriptador</title>
+        <meta name="viewport" content="width=device-width"> 
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="Logo.png" alt="Logo de alura">
+            <h1 class="titulo"> CHALLENGE ENCRIPTADOR ALURA </h1>
+
+        </header>
+        <main>
+            <section class="seccionizquierda">
+                
+                <div class="areaTexto">
+                    <textarea class="textArea" placeholder="Ingrese texto aquí"></textarea>
+                </div>
+                
+                
+                <div class="textoMinusculas">
+                    <h2 class="informacion">&#9432 Solo letras mínusculas y sin acentos</h2>              
+                </div>
+
+                <div class="botones"> 
+                    <button class="btnEncriptar" onclick="botonEncriptar()"> Encriptar </button>
+                    <button class="btnDesencriptar" onclick="botonDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+
+            <section class="seccionDerecha">
+                <img class="imagenTextoDesencriptado" src="imagenAcertijo.webp" alt="Imagen dentro del cuadro de desencriptado">
+                <h3 class="sinMensaje">Ningun mensaje fue encontrado</h3>
+                <textarea class="areaDesencriptado" rows="8" cols="80"> Ingrese el texto que desees encriptar o desencriptar.</textarea>
+                <button class="copiar" onclick="copiar()"> Copiar </button>
+            </section>
+
+        </main>
+
+        <footer>
+            <p class="copyright">&copy Copyright Rubén Chaparro - Aprendiz en Programación</p>
+        </footer>
+
+        <script src="./script.js"></script>
+    </body>
+</html>

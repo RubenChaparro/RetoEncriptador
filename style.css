@@ -1,0 +1,192 @@
+body{
+    font-family: 'Shantell Sans', cursive;
+    width: 1440px;
+    height: 1024px;
+    background: linear-gradient(white 7%,rgb(72, 148, 57), rgb(59, 114, 59));
+}
+
+header {
+    height: 100px;
+}
+
+.logo{
+    width: 170px;
+    height: 60px;
+    float: left;
+    margin-top: 25px;
+}
+
+.titulo {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+main {
+    width: 1440px;
+    height: 860px;
+}
+
+.seccionizquierda {
+    float: left;
+    width: 60%;
+    height: 860px;
+}
+
+.areaTexto {
+    height: 75%;
+}
+
+.textArea {
+    float: left;
+    width: 750px;
+    height: 590px;
+    margin-top: 60px;
+    margin-left: 120px;
+    font-family: 'Shantell Sans', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+    text-transform: lowercase;
+    border: none;
+    outline: none;
+    background: none;
+    
+}
+
+.textoMinusculas {
+
+    width: auto;
+    height: 25px;
+    padding: 18px;
+    margin-left: 145px;
+    
+
+}
+
+.informacion {
+    width: 665px;
+    height: 18px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+.botones {
+    height: 10%;
+    margin-left: 160px;
+}
+
+
+
+
+.btnEncriptar {
+    width: 300px;
+    height: 65px;
+    background-color: #353535;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 25px;
+    color: #ffffff;
+    border: none;
+    box-shadow: -9px 15px 19px 3px #000000;
+}
+
+.btnEncriptar:hover {
+    font-size: 32px; 
+     
+}
+.btnDesencriptar:hover {
+    font-size: 32px; 
+    
+}
+
+.btnDesencriptar {
+    width: 300px;
+    height: 65px;
+    margin-left: 15px;
+    background-color: #c2c2c2;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 25px;
+    color: #000000;
+    border: none;
+    box-shadow: -9px 15px 19px 3px #000000;
+}
+
+.seccionDerecha{
+    float: right;
+    height: 860px;
+    width: 30%;
+    margin-right: 5% ;
+    background: #ffffff;
+    border-radius: 24px;
+
+
+
+}
+
+.imagenTextoDesencriptado{
+    width: 350px;
+    height: 470px;
+    margin: 20px 40px;
+}
+
+
+
+.areaDesencriptado {
+    float: left;
+    width: 400px;
+    height: 200px;
+    margin: 15px;
+    font-family: 'Shantell Sans', cursive;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    text-transform: lowercase;
+    text-align: center;
+    border: none;
+    outline: none;
+    background: #ffffff;
+}
+
+.sinMensaje {
+    font-size: 34px;
+    margin: 20px;
+    text-align: center;
+    width: auto;
+}
+
+.copiar {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    width: 300px;
+    height: 65px;
+    display:block;
+    margin: auto;
+    border-radius: 24px;
+    cursor: pointer;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 20px;
+    display: none;
+}
+
+.copiar:hover {
+    font-size: 32px; 
+}
+
+footer {
+    height: 6.5%;
+}
+
+.copyright {
+    height: 45%;
+    padding: 15px;
+    text-align: center;
+    font-size: 25px;
+   }
